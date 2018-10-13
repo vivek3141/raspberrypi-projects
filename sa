@@ -1,0 +1,232 @@
+Help on built-in module math:
+
+NNAAMMEE
+    math
+
+DDEESSCCRRIIPPTTIIOONN
+    This module is always available.  It provides access to the
+    mathematical functions defined by the C standard.
+
+FFUUNNCCTTIIOONNSS
+    aaccooss(...)
+        acos(x)
+        
+        Return the arc cosine (measured in radians) of x.
+    
+    aaccoosshh(...)
+        acosh(x)
+        
+        Return the hyperbolic arc cosine (measured in radians) of x.
+    
+    aassiinn(...)
+        asin(x)
+        
+        Return the arc sine (measured in radians) of x.
+    
+    aassiinnhh(...)
+        asinh(x)
+        
+        Return the hyperbolic arc sine (measured in radians) of x.
+    
+    aattaann(...)
+        atan(x)
+        
+        Return the arc tangent (measured in radians) of x.
+    
+    aattaann22(...)
+        atan2(y, x)
+        
+        Return the arc tangent (measured in radians) of y/x.
+        Unlike atan(y/x), the signs of both x and y are considered.
+    
+    aattaannhh(...)
+        atanh(x)
+        
+        Return the hyperbolic arc tangent (measured in radians) of x.
+    
+    cceeiill(...)
+        ceil(x)
+        
+        Return the ceiling of x as an int.
+        This is the smallest integral value >= x.
+    
+    ccooppyyssiiggnn(...)
+        copysign(x, y)
+        
+        Return x with the sign of y.
+    
+    ccooss(...)
+        cos(x)
+        
+        Return the cosine of x (measured in radians).
+    
+    ccoosshh(...)
+        cosh(x)
+        
+        Return the hyperbolic cosine of x.
+    
+    ddeeggrreeeess(...)
+        degrees(x)
+        
+        Convert angle x from radians to degrees.
+    
+    eerrff(...)
+        erf(x)
+        
+        Error function at x.
+    
+    eerrffcc(...)
+        erfc(x)
+        
+        Complementary error function at x.
+    
+    eexxpp(...)
+        exp(x)
+        
+        Return e raised to the power of x.
+    
+    eexxppmm11(...)
+        expm1(x)
+        
+        Return exp(x)-1.
+        This function avoids the loss of precision involved in the direct evaluation of exp(x)-1 for small x.
+    
+    ffaabbss(...)
+        fabs(x)
+        
+        Return the absolute value of the float x.
+    
+    ffaaccttoorriiaall(...)
+        factorial(x) -> Integral
+        
+        Find x!. Raise a ValueError if x is negative or non-integral.
+    
+    fflloooorr(...)
+        floor(x)
+        
+        Return the floor of x as an int.
+        This is the largest integral value <= x.
+    
+    ffmmoodd(...)
+        fmod(x, y)
+        
+        Return fmod(x, y), according to platform C.  x % y may differ.
+    
+    ffrreexxpp(...)
+        frexp(x)
+        
+        Return the mantissa and exponent of x, as pair (m, e).
+        m is a float and e is an int, such that x = m * 2.**e.
+        If x is 0, m and e are both 0.  Else 0.5 <= abs(m) < 1.0.
+    
+    ffssuumm(...)
+        fsum(iterable)
+        
+        Return an accurate floating point sum of values in the iterable.
+        Assumes IEEE-754 floating point arithmetic.
+    
+    ggaammmmaa(...)
+        gamma(x)
+        
+        Gamma function at x.
+    
+    hhyyppoott(...)
+        hypot(x, y)
+        
+        Return the Euclidean distance, sqrt(x*x + y*y).
+    
+    iissffiinniittee(...)
+        isfinite(x) -> bool
+        
+        Return True if x is neither an infinity nor a NaN, and False otherwise.
+    
+    iissiinnff(...)
+        isinf(x) -> bool
+        
+        Return True if x is a positive or negative infinity, and False otherwise.
+    
+    iissnnaann(...)
+        isnan(x) -> bool
+        
+        Return True if x is a NaN (not a number), and False otherwise.
+    
+    llddeexxpp(...)
+        ldexp(x, i)
+        
+        Return x * (2**i).
+    
+    llggaammmmaa(...)
+        lgamma(x)
+        
+        Natural logarithm of absolute value of Gamma function at x.
+    
+    lloogg(...)
+        log(x[, base])
+        
+        Return the logarithm of x to the given base.
+        If the base not specified, returns the natural logarithm (base e) of x.
+    
+    lloogg1100(...)
+        log10(x)
+        
+        Return the base 10 logarithm of x.
+    
+    lloogg11pp(...)
+        log1p(x)
+        
+        Return the natural logarithm of 1+x (base e).
+        The result is computed in a way which is accurate for x near zero.
+    
+    mmooddff(...)
+        modf(x)
+        
+        Return the fractional and integer parts of x.  Both results carry the sign
+        of x and are floats.
+    
+    ppooww(...)
+        pow(x, y)
+        
+        Return x**y (x to the power of y).
+    
+    rraaddiiaannss(...)
+        radians(x)
+        
+        Convert angle x from degrees to radians.
+    
+    ssiinn(...)
+        sin(x)
+        
+        Return the sine of x (measured in radians).
+    
+    ssiinnhh(...)
+        sinh(x)
+        
+        Return the hyperbolic sine of x.
+    
+    ssqqrrtt(...)
+        sqrt(x)
+        
+        Return the square root of x.
+    
+    ttaann(...)
+        tan(x)
+        
+        Return the tangent of x (measured in radians).
+    
+    ttaannhh(...)
+        tanh(x)
+        
+        Return the hyperbolic tangent of x.
+    
+    ttrruunncc(...)
+        trunc(x:Real) -> Integral
+        
+        Truncates x to the nearest Integral toward 0. Uses the __trunc__ magic method.
+
+DDAATTAA
+    ee = 2.718281828459045
+    ppii = 3.141592653589793
+
+FFIILLEE
+    (built-in)
+
